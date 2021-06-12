@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 2, 2021 3:50:34 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Model.Customer" table="customer" catalog="dbthuongmaidientu" optimistic-lock="version">
+        <id name="customerId" type="java.lang.Integer">
+            <column name="CustomerID" />
+            <generator class="identity" />
+        </id>
+        <property name="customerName" type="string">
+            <column name="CustomerName" length="45" not-null="true" />
+        </property>
+        <property name="address" type="string">
+            <column name="Address" length="45" />
+        </property>
+        <property name="phone" type="string">
+            <column name="Phone" length="45" />
+        </property>
+        <property name="email" type="string">
+            <column name="Email" length="45" />
+        </property>
+        <property name="sex" type="string">
+            <column name="Sex" length="45" />
+        </property>
+        <property name="money" type="java.lang.Integer">
+            <column name="Money" />
+        </property>
+        <set name="orders" table="order" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="CustomerID" />
+            </key>
+            <one-to-many class="Model.Order" />
+        </set>
+    </class>
+</hibernate-mapping>

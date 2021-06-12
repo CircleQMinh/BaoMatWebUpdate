@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 17, 2021 6:14:44 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Model.Order" table="order" catalog="dbthuongmaidientu" optimistic-lock="version">
+        <id name="orderId" type="java.lang.Integer">
+            <column name="OrderID" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="customer" class="Model.Customer" fetch="select">
+            <column name="CustomerID" />
+        </many-to-one>
+        <property name="orderDate" type="timestamp">
+            <column name="OrderDate" length="19" />
+        </property>
+        <property name="requiredDate" type="timestamp">
+            <column name="RequiredDate" length="19" />
+        </property>
+        <property name="shippedDate" type="timestamp">
+            <column name="ShippedDate" length="19" />
+        </property>
+        <property name="status" type="java.lang.Integer">
+            <column name="Status" />
+        </property>
+        <property name="orderName" type="string">
+            <column name="OrderName" length="45" />
+        </property>
+        <property name="orderAdress" type="string">
+            <column name="OrderAdress" length="200" />
+        </property>
+        <property name="orderPhone" type="string">
+            <column name="OrderPhone" length="45" />
+        </property>
+        <property name="orderEmail" type="string">
+            <column name="OrderEmail" length="200" />
+        </property>
+        <property name="shipperId" type="java.lang.Integer">
+            <column name="ShipperID" />
+        </property>
+        <property name="paymentType" type="string">
+            <column name="PaymentType" length="45" />
+        </property>
+        <property name="note" type="string">
+            <column name="Note" length="45" />
+        </property>
+        <set name="orderdetails" table="orderdetail" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="OrderID" not-null="true" />
+            </key>
+            <one-to-many class="Model.Orderdetail" />
+        </set>
+    </class>
+</hibernate-mapping>

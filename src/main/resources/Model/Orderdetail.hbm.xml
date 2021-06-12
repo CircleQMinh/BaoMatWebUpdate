@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 23, 2020 3:48:17 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Model.Orderdetail" table="orderdetail" catalog="dbthuongmaidientu" optimistic-lock="version">
+        <composite-id name="id" class="Model.OrderdetailId">
+            <key-property name="orderId" type="int">
+                <column name="OrderID" />
+            </key-property>
+            <key-property name="productId" type="int">
+                <column name="ProductID" />
+            </key-property>
+        </composite-id>
+        <many-to-one name="order" class="Model.Order" update="false" insert="false" fetch="select">
+            <column name="OrderID" not-null="true" />
+        </many-to-one>
+        <many-to-one name="product" class="Model.Product" update="false" insert="false" fetch="select">
+            <column name="ProductID" not-null="true" />
+        </many-to-one>
+        <property name="quantityOrdered" type="java.lang.Integer">
+            <column name="QuantityOrdered" />
+        </property>
+    </class>
+</hibernate-mapping>

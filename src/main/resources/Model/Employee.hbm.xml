@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 23, 2020 3:48:17 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Model.Employee" table="employee" catalog="dbthuongmaidientu" optimistic-lock="version">
+        <id name="employeeId" type="java.lang.Integer">
+            <column name="EmployeeID" />
+            <generator class="identity" />
+        </id>
+        <property name="email" type="string">
+            <column name="Email" length="45" />
+        </property>
+        <property name="phone" type="string">
+            <column name="Phone" length="15" />
+        </property>
+        <property name="address" type="string">
+            <column name="Address" length="45" />
+        </property>
+        <property name="employeeName" type="string">
+            <column name="EmployeeName" length="45" not-null="true" />
+        </property>
+        <property name="sex" type="string">
+            <column name="Sex" length="45" />
+        </property>
+        <property name="salary" type="java.lang.Integer">
+            <column name="Salary" />
+        </property>
+        <property name="paycheck" type="date">
+            <column name="Paycheck" length="10" />
+        </property>
+        <property name="workdate" type="java.lang.Integer">
+            <column name="Workdate" />
+        </property>
+        <property name="lastAtt" type="date">
+            <column name="LastAtt" length="10" />
+        </property>
+    </class>
+</hibernate-mapping>

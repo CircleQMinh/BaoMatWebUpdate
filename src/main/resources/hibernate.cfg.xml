@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    
+<!--     <property name="hibernate.connection.url">jdbc:mysql://hwr4wkxs079mtb19.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/dut78p24cwsag570?characterEncoding=UTF-8</property>
+    <property name="hibernate.connection.username">jainivqam0zosg9j</property>
+    <property name="hibernate.connection.password">n7ecjahi7eog6cam</property> -->
+    
+  	<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/dbthuongmaidientu?characterEncoding=UTF-8</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">qm1234</property>
+    
+    <property name="hibernate.enable_lazy_load_no_trans">true</property>
+<!--    <property name="connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
+    <property name="hibernate.c3p0.min_size">10</property>
+    <property name="hibernate.c3p0.max_size">20</property>
+    <property name="hibernate.c3p0.acquire_increment">1</property>
+    <property name="hibernate.c3p0.idle_test_period">3000</property>
+    <property name="hibernate.c3p0.max_statements">50</property>
+    <property name="hibernate.c3p0.timeout">1800</property>
+    <property name="hibernate.c3p0.validate">1800</property>  
+    <property name="hibernate.c3p0.unreturnedConnectionTimeout">30</property>
+    <property name="hibernate.c3p0.debugUnreturnedConnectionStackTraces">true</property>-->
+    <mapping resource="Model/Revenue.hbm.xml"/>
+    <mapping resource="Model/Blog.hbm.xml"/>
+    <mapping resource="Model/Order.hbm.xml"/>
+    <mapping resource="Model/Orderdetail.hbm.xml"/>
+    <mapping resource="Model/Admin.hbm.xml"/>
+    <mapping resource="Model/Unapprovedproduct.hbm.xml"/>
+    <mapping resource="Model/Product.hbm.xml"/>
+    <mapping resource="Model/Account.hbm.xml"/>
+    <mapping resource="Model/Customer.hbm.xml"/>
+    <mapping resource="Model/Employee.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>

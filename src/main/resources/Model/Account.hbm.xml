@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 23, 2020 3:48:17 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Model.Account" table="account" catalog="dbthuongmaidientu" optimistic-lock="version">
+        <id name="accountId" type="java.lang.Integer">
+            <column name="AccountID" />
+            <generator class="identity" />
+        </id>
+        <property name="username" type="string">
+            <column name="Username" length="45" not-null="true" unique="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="Password" length="45" not-null="true" />
+        </property>
+        <property name="type" type="string">
+            <column name="Type" length="45" />
+        </property>
+        <property name="userId" type="int">
+            <column name="UserID" not-null="true" />
+        </property>
+        <property name="image" type="string">
+            <column name="Image" length="500" />
+        </property>
+    </class>
+</hibernate-mapping>

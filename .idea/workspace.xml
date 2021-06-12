@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03d32c51-411f-478b-8a60-5782c6d45dc0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/account-info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/account-info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Controller/CartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Controller/CartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Controller/EmployeeAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Controller/EmployeeAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Controller/PutServletHere.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Controller/PutServletHere.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Dao/AccountDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Dao/AccountDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Dao/CustomerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Dao/CustomerDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Dao/EmployeeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Dao/EmployeeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Dao/OrderDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Dao/OrderDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Dao/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Dao/RevenueDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Dao/RevenueDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Dao/StatisticDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Dao/StatisticDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/Blog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/CartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/CartItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/Orderdetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/Orderdetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/OrderdetailId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/OrderdetailId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/Revenue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/Revenue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/Unapprovedproduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Model/Unapprovedproduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Service/CartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Service/CartService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/Service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/AdminPage-1.0-SNAPSHOT/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller/CartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/CartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller/EmployeeAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/EmployeeAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controller/PutServletHere.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controller/PutServletHere.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Dao/AccountDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Dao/AccountDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Dao/CustomerDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Dao/CustomerDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Dao/EmployeeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Dao/EmployeeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Dao/OrderDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Dao/OrderDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Dao/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Dao/RevenueDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Dao/RevenueDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Dao/StatisticDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Dao/StatisticDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Blog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Blog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/CartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/CartItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Orderdetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Orderdetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/OrderdetailId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/OrderdetailId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Revenue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Revenue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Unapprovedproduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Unapprovedproduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Service/CartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/CartService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1nEyEIJgfDUKjGfPSCppqwiskDW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03d32c51-411f-478b-8a60-5782c6d45dc0" name="Default Changelist" comment="" />
+      <created>1610969435169</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610969435169</updated>
+      <workItem from="1610969437203" duration="2000" />
+    </task>
+    <servers />
+  </component>
+</project>

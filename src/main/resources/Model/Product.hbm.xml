@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Dec 23, 2020 3:48:17 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Model.Product" table="product" catalog="dbthuongmaidientu" optimistic-lock="version">
+        <id name="productId" type="java.lang.Integer">
+            <column name="ProductID" />
+            <generator class="identity" />
+        </id>
+        <property name="productName" type="string">
+            <column name="ProductName" length="100" not-null="true" />
+        </property>
+        <property name="productDescription" type="string">
+            <column name="ProductDescription" length="2000" />
+        </property>
+        <property name="price" type="java.lang.Integer">
+            <column name="Price" />
+        </property>
+        <property name="quantity" type="java.lang.Integer">
+            <column name="Quantity" />
+        </property>
+        <property name="category" type="string">
+            <column name="Category" length="45" />
+        </property>
+        <property name="picture" type="string">
+            <column name="Picture" length="500" />
+        </property>
+        <property name="dateAdded" type="date">
+            <column name="DateAdded" length="10" />
+        </property>
+        <set name="orderdetails" table="orderdetail" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="ProductID" not-null="true" />
+            </key>
+            <one-to-many class="Model.Orderdetail" />
+        </set>
+    </class>
+</hibernate-mapping>
