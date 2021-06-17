@@ -122,6 +122,7 @@
                 <form class="col-4 contentProduct" name="product">
                     <div class="" onclick="location.assign('product-details.jsp?prdID_item=<%= prdsss.getProductId() %>');">
                         <img src="<%= prdsss.getPicture() %>" alt="">
+                        <input type = "hidden" name = "csrf" value = "Fijd93djskDsdis9wijdSD938jISdj93jdISdj9s" />
                         <h4><%= prdsss.getProductName() %></h4>
                         <div class="rating">
                             <i class="fa fa-star" ></i>
@@ -146,6 +147,7 @@
                     <div class="" onclick="location.assign('product-details.jsp?prdID_item=<%= prdsss.getProductId() %>');">
                         <img src="<%= prdsss.getPicture() %>" alt="">
                         <h4><%= prdsss.getProductName() %></h4>
+                        <input type = "hidden" name = "csrf" value = "Fijd93djskDsdis9wijdSD938jISdj93jdISdj9s" />
                         <div class="rating">
                             <i class="fa fa-star" ></i>
                             <i class="fa fa-star" ></i>
@@ -169,6 +171,7 @@
                     <div class="" onclick="location.assign('product-details.jsp?prdID_item=<%= prdsss.getProductId() %>');">
                         <img src="<%= prdsss.getPicture() %>" alt="">
                         <h4><%= prdsss.getProductName() %></h4>
+                        <input type = "hidden" name = "csrf" value = "Fijd93djskDsdis9wijdSD938jISdj93jdISdj9s" />
                         <div class="rating">
                             <i class="fa fa-star" ></i>
                             <i class="fa fa-star" ></i>
@@ -192,6 +195,7 @@
                     <div class="" onclick="location.assign('product-details.jsp?prdID_item=<%= prdsss.getProductId() %>');">
                         <img src="<%= prdsss.getPicture() %>" alt="">
                         <h4><%= prdsss.getProductName() %></h4>
+                        <input type = "hidden" name = "csrf" value = "Fijd93djskDsdis9wijdSD938jISdj93jdISdj9s" />
                         <div class="rating">
                             <i class="fa fa-star" ></i>
                             <i class="fa fa-star" ></i>
@@ -230,6 +234,7 @@
                     <div class="" onclick="location.assign('product-details.jsp?prdID_item=<%= prdss.get(i).getProductId() %>');">
                         <img src="<%= prdss.get(i).getPicture() %>" alt="">
                         <h4><%= prdss.get(i).getProductName() %></h4>
+                        <input type = "hidden" name = "csrf" value = "Fijd93djskDsdis9wijdSD938jISdj93jdISdj9s" />
                         <div class="rating">
                             <i class="fa fa-star" ></i>
                             <i class="fa fa-star" ></i>
@@ -252,6 +257,7 @@
                     <div class="" onclick="location.assign('product-details.jsp?prdID_item=<%= prdss.get(i).getProductId() %>');">
                         <img src="<%= prdss.get(i).getPicture() %>" alt="">
                         <h4><%= prdss.get(i).getProductName() %></h4>
+                        <input type = "hidden" name = "csrf" value = "Fijd93djskDsdis9wijdSD938jISdj93jdISdj9s" />
                         <div class="rating">
                             <i class="fa fa-star" ></i>
                             <i class="fa fa-star" ></i>
@@ -274,6 +280,7 @@
                     <div class="" onclick="location.assign('product-details.jsp?prdID_item=<%= prdss.get(i).getProductId() %>');">
                         <img src="<%= prdss.get(i).getPicture() %>" alt="">
                         <h4><%= prdss.get(i).getProductName() %></h4>
+                        <input type = "hidden" name = "csrf" value = "Fijd93djskDsdis9wijdSD938jISdj93jdISdj9s" />
                         <div class="rating">
                             <i class="fa fa-star" ></i>
                             <i class="fa fa-star" ></i>
@@ -296,6 +303,7 @@
                     <div class="" onclick="location.assign('product-details.jsp?prdID_item=<%= prdss.get(i).getProductId() %>');">
                         <img src="<%= prdss.get(i).getPicture() %>" alt="">
                         <h4><%= prdss.get(i).getProductName() %></h4>
+                        <input type = "hidden" name = "csrf" value = "Fijd93djskDsdis9wijdSD938jISdj93jdISdj9s" />
                         <div class="rating">
                             <i class="fa fa-star" ></i>
                             <i class="fa fa-star" ></i>

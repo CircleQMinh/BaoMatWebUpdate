@@ -11,7 +11,7 @@
     
   	<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/dbthuongmaidientu?characterEncoding=UTF-8</property>
     <property name="hibernate.connection.username">root</property>
-    <property name="hibernate.connection.password">qm1234</property>
+    <property name="hibernate.connection.password">kunpro2000@@</property>
     
     <property name="hibernate.enable_lazy_load_no_trans">true</property>
 <!--    <property name="connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
