@@ -25,7 +25,7 @@
                 <form action="register?action=add-user" method="post"> 
                         <h2>Đăng ký</h2>
                 <input type="text" name="cusName" placeholder="Tên của bạn" required="" value="${name}"><br>
-                <input type="text" name="username" placeholder="Tài khoản" required="" value="${username}"><small>${usernameError}</small><br>
+                <input type="text" name="username" autocomplete="off" placeholder="Tài khoản" required="" value="${username}"><small>${usernameError}</small><br>
                 <input type="text" name="cusPhone" placeholder="SĐT" required="" value="${phone}"><small>${phoneError}</small><br>
                     <div>
                         <input type="radio" name="cusGender" value="Nam" checked> Nam
@@ -34,8 +34,8 @@
                     </div>
                         <input type="email" name="email" placeholder="Email:" required="" value="${sessionScope.userEmail}" disabled=""><br>
                     <div>    
-                        <input type="password" name="password" placeholder="Mật khẩu" style="width:40%;"required="">
-                        <input type="password" name="confirmPassword" placeholder="Xác nhận mật khẩu" style="width:40%;float:right;" required="">
+                        <input type="password" name="password" autocomplete="off" placeholder="Mật khẩu" style="width:40%;"required="">
+                        <input type="password" name="confirmPassword" autocomplete="off" placeholder="Xác nhận mật khẩu" style="width:40%;float:right;" required="">
                         <small><center>${confirmPasswordError}</center></small><br>
                         <small><center>${passwordError}</center></small>
                     </div>

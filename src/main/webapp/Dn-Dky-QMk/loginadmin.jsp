@@ -37,9 +37,9 @@
 			
 			<h2>Đăng nhập</h2>
 			
-                        <input type="text" name="username" placeholder="Tài khoản" value="${username}"required><br>
+                        <input type="text" name="username" autocomplete="off" placeholder="Tài khoản" value="${username}"required><br>
                         ${usernameError}                      
-			<input type="password" name="password" placeholder="Mật khẩu" required>
+			<input type="password" name="password" autocomplete="off" placeholder="Mật khẩu" required>
 			${passwordError}
 			<p>
 			

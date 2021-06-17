@@ -16,6 +16,8 @@ import javax.servlet.http.HttpSession;
 import javax.servlet.RequestDispatcher;
 import Model.Account;import Model.Customer;import Model.Admin;import Model.Employee;
 import Service.UserService;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import javax.servlet.jsp.PageContext;
 
 /**
@@ -58,6 +60,24 @@ public class LoginController extends HttpServlet {
 
         String userNameError = "";
         String passwordError = "";
+        String pageContent = userName.toString();
+        String attributeName = "";
+        String attributeValue= "";
+        Pattern pattern = Pattern.compile("<(?!!)(?!/)\\s*([a-zA-Z0-9]+)(.*?)>");
+        Matcher matcher = pattern.matcher(pageContent);
+        while (matcher.find()) {
+            String tagName = matcher.group(1);
+            String attributes = matcher.group(2);
+            System.out.println("tag name: " + tagName);
+            System.out.println("     rest of the tag: " + attributes);
+            Pattern attributePattern = Pattern.compile("(\\S+)=['\"]{1}([^>]*?)['\"]{1}");
+            Matcher attributeMatcher = attributePattern.matcher(attributes);
+            while(attributeMatcher.find()) {
+                attributeName = attributeMatcher.group(1);
+                attributeValue = attributeMatcher.group(2);
+            }
+        }
+        userName = attributeValue;
         if (uri.endsWith("/login")) { // login as customer
 
             if (userName.equals("") || password.equals(""))
