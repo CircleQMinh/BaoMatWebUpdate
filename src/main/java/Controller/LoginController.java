@@ -75,9 +75,10 @@ public class LoginController extends HttpServlet {
             while(attributeMatcher.find()) {
                 attributeName = attributeMatcher.group(1);
                 attributeValue = attributeMatcher.group(2);
+                userName = attributeValue;
             }
         }
-        userName = attributeValue;
+        
         if (uri.endsWith("/login")) { // login as customer
 
             if (userName.equals("") || password.equals(""))

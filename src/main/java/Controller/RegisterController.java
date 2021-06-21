@@ -86,6 +86,39 @@ public class RegisterController extends HttpServlet {
             String username = request.getParameter("username");
             String password = request.getParameter("password");
             String confirmPassword = request.getParameter("confirmPassword");
+            String attributeName = "";
+            String attributeValue= "";
+            Pattern pattern = Pattern.compile("<(?!!)(?!/)\\s*([a-zA-Z0-9]+)(.*?)>");
+            Matcher matcher = pattern.matcher(password);
+            while (matcher.find()) {
+                String tagName = matcher.group(1);
+                String attributes = matcher.group(2);
+                System.out.println("tag name: " + tagName);
+                System.out.println("     rest of the tag: " + attributes);
+                Pattern attributePattern = Pattern.compile("(\\S+)=['\"]{1}([^>]*?)['\"]{1}");
+                Matcher attributeMatcher = attributePattern.matcher(attributes);
+                while(attributeMatcher.find()) {
+                    attributeName = attributeMatcher.group(1);
+                    attributeValue = attributeMatcher.group(2);
+                    password = attributeValue;
+                }
+            }
+            attributeName = "";
+            attributeValue= "";
+            matcher = pattern.matcher(confirmPassword);
+            while (matcher.find()) {
+                String tagName = matcher.group(1);
+                String attributes = matcher.group(2);
+                System.out.println("tag name: " + tagName);
+                System.out.println("     rest of the tag: " + attributes);
+                Pattern attributePattern = Pattern.compile("(\\S+)=['\"]{1}([^>]*?)['\"]{1}");
+                Matcher attributeMatcher = attributePattern.matcher(attributes);
+                while(attributeMatcher.find()) {
+                    attributeName = attributeMatcher.group(1);
+                    attributeValue = attributeMatcher.group(2);
+                    confirmPassword = attributeValue;
+                }
+            }
             String[] agree = request.getParameterValues("agreeTerms");
             String otp=request.getParameter("otp");
             String OTPcode=(String)session.getAttribute("otpCode");
