@@ -86,8 +86,8 @@
                     }
 
                     output = output +
-                    this._keyStr.charAt(enc1) + this._keyStr.charAt(enc2) +
-                    this._keyStr.charAt(enc3) + this._keyStr.charAt(enc4);
+                    _keyStr.charAt(enc1) + _keyStr.charAt(enc2) +
+                    _keyStr.charAt(enc3) + _keyStr.charAt(enc4);
 
                 }
 
@@ -129,7 +129,7 @@
                 $("input[id|='loginButton']").click( function(){
                     let userName = document.getElementById('userName').value;
                     let passWord = document.getElementById('passWord').value;
-                    userName=btoa(userName);
+                    userName=Base64Encode(userName);
                     passWord=btoa(passWord);
                     var postData = "username=" + userName + "&password=" + passWord;
                     console.log('hello', postData);
