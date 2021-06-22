@@ -20,6 +20,7 @@ import Model.Account;
 import Model.Customer;
 import java.util.Random;
 import javax.servlet.http.HttpSession;
+import org.jsoup.Jsoup;
 
 /**
  *
@@ -48,7 +49,9 @@ public class RegisterController extends HttpServlet {
             response.sendRedirect(request.getContextPath()+"/register");
         }
     }
-
+    public static String html2text(String html) {
+        return Jsoup.parse(html).text();
+    }
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) // thiếu trường địa chỉ trên jsp
             throws ServletException, IOException {

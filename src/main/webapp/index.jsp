@@ -477,6 +477,7 @@
                 var numItem = $('#cart-item').html();
                 console.log(numItem);
                 var postData = $(this).closest('div').closest('form').serialize();
+                console.log('post data', postData)
                  $.ajax({
                     type: "POST",
                     url: "ajax/customerpage/ajax_add_item.jsp",
